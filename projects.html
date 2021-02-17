@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en" class="bg-color-four dark-mode">
+<head>
+  <meta charset="utf-8">
+  <title>Korey Madden</title>
+  <meta name="description" content="A website portfolio to show off past experiences.">
+  <meta name="author" content="Korey Madden">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+  <link rel="manifest" href="/images/icons/site.webmanifest">
+  <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#393f4d">
+  <link rel="shortcut icon" href="/images/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+  <meta name="theme-color" content="#393f4d">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="bg-color-four dark-mode">
+  <div id="particles-js"></div>
+  <div id="loader" class="flex loader-wrapper">
+    <div id="spinner" class="canvas canvas1">
+      <div class="spinner spinnerMax">
+        <div class="spinner spinnerMid">
+          <div class="spinner spinnerMin"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="navbar" class="wrapper">
+    <div class="container">
+      <div class="flex">
+        <div id="nav-name">
+          <a href="/">
+            <img src="./images/logo-k.png" class="filter" alt="Korey's Logo" width="50" height="50">
+          </a>
+        </div>
+        <div id="nav-list" class="flex between">
+          <div class="nav-list-item nav-link flex center dark-mode desktop">
+            <a href="./about.html">About Me</a>
+          </div>
+          <div class="nav-list-item nav-link flex center dark-mode desktop">
+            <a href="./projects.html">Projects</a>
+          </div>
+          <div class="nav-list-item nav-link flex center dark-mode desktop">
+            <a href="./contact.html">Contact</a>
+          </div>
+          <div class="nav-list-item flex center">
+            <a id="a-dark-mode" href="#">
+              <ion-icon id="dark-mode" name="invert-mode" class="dark-mode"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="container">
+      <h1 id="project-header" class="dark-mode">Featured Projects</h1>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="big-project-container flex-wrap">
+      <div class="project-container project-flex">
+        <div class="project-visual">
+          <img class="project-img" src="/images/fragrances-mac-iphone.png" alt="">
+        </div>
+        <div class="project-info">
+          <h2 class="dark-mode">Fragrance Store</h2>
+          <p class="dark-mode">
+            Using react I've created a complete responsive shopping experience. Users can browse the site, create an account using with an email / password or an existing google or twitter account. This will also allow you to save selected items in your cart to your account no matter what device your on. Additionally, with an admin account you are able to easily add, remove, and update existing items in the store with a convenient and clean interface!
+          </p>
+        </div>
+        <div class="project-stack">
+          <ion-icon class="stack-icon dark-mode" name="logo-html5"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-css3"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-javascript"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-firebase"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-react"></ion-icon>
+        </div>
+        <div class="project-actions">
+          <a class="project-button special dark-mode" href="#">
+            <ion-icon class="special dark-mode" name="open-outline"></ion-icon>
+            Demo
+          </a>
+          <a class="project-button special dark-mode" href="https://github.com/koreymadden/fragrance-store" target="_blank">
+            <ion-icon class="special dark-mode" name="code-slash-outline"></ion-icon>
+            Code
+          </a>
+        </div>
+      </div>
+      <div class="project-container project-flex">
+        <div class="project-visual">
+          <img class="project-img" src="/images/app-tool-xps-15-pixel.png" alt="">
+        </div>
+        <div class="project-info">
+          <h2 class="dark-mode">App Development Tool</h2>
+          <p class="dark-mode">
+            With the use of Node and NPM packages I was able to create a command line app that allowed me to save time at work daily. With the readline interface, I created an app that allowed me to execute several commands and update files on the fly with a simple command. After user input it would proceed to check files for certain variable, git statuses, create readable errors if any had occured, and display other useful information based on the given command.
+          </p>
+        </div>
+        <div class="project-stack">
+          <ion-icon class="stack-icon dark-mode" name="logo-javascript"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-nodejs"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-npm"></ion-icon>
+        </div>
+        <div class="project-actions">
+          <a class="project-button special dark-mode" href="https://github.com/koreymadden/node-app-tool" target="_blank">
+            <ion-icon class="special dark-mode" name="code-slash-outline"></ion-icon>
+            Code
+          </a>
+        </div>
+      </div>
+      <div class="project-container project-flex">
+        <div class="project-visual">
+          <img class="project-img" src="/images/vegatouch-ipad-iphone.png" alt="">
+        </div>
+        <div class="project-info">
+          <h2 class="dark-mode">Vegatouch Apps</h2>
+          <p class="dark-mode">
+            Developed, improved, and maintained the Mira and Eclipse apps. Working with the CAN bus and many different CAN messages to give users the ability to control several different systems in their individual RV. Some systems include HVAC, power, lighting, slides, awnings, tanks, etc. These projects require cross-team collaboration in order to make everything function and synchronize correctly.
+          </p>
+        </div>
+        <div class="project-stack">
+          <ion-icon class="stack-icon dark-mode" name="logo-html5"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-css3"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-javascript"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-angular"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-ionic"></ion-icon>
+        </div>
+        <div class="project-actions">
+          <a class="project-button special dark-mode" href="#">
+            <ion-icon class="special dark-mode" name="images-outline"></ion-icon>
+            Images
+          </a>
+          <a class="project-button special dark-mode remove" href="#">
+            <ion-icon class="special dark-mode" name="code-slash-outline"></ion-icon>
+            Code
+          </a>
+        </div>
+      </div>
+      <div class="project-container project-flex last-project">
+        <div class="project-visual">
+          <img class="project-img" src="/images/apple-thumbnail.png" alt="">
+        </div>
+        <div class="project-info">
+          <h2 class="dark-mode">Web Tetris</h2>
+          <p class="dark-mode">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis expedita quos fugit asperiores quibusdam nisi sed perferendis, pariatur consequuntur debitis vitae. Quisquam, temporibus! Unde pariatur atque ea a perspiciatis.</p>
+        </div>
+        <div class="project-stack">
+          <ion-icon class="stack-icon dark-mode" name="logo-html5"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-css3"></ion-icon>
+          <ion-icon class="stack-icon dark-mode" name="logo-javascript"></ion-icon>
+        </div>
+        <div class="project-actions">
+          <a class="project-button special dark-mode" href="#">
+            <ion-icon class="special dark-mode" name="open-outline"></ion-icon>
+            Demo
+          </a>
+          <a class="project-button special dark-mode" href="#">
+            <ion-icon class="special dark-mode" name="code-slash-outline"></ion-icon>
+            Code
+          </a>
+        </div>
+      </div>
+      <div id="bottom-nav">
+        <div class="nav-list-item flex center dark-mode mobile">
+          <a href="./about.html" class="special a-link">
+              <span class="dark-mode special">About</span>
+          </a>
+        </div>
+        <div class="nav-list-item flex center dark-mode mobile">
+          <a href="./projects.html" class="special a-link">
+            <span class="dark-mode special">Projects</span>
+          </a>
+        </div>
+        <div class="nav-list-item flex center dark-mode mobile">
+          <a href="./contact.html" class="special a-link">
+            <span class="dark-mode special">Contact</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script type="module" src="js/scripts.js"></script>
+</body>
+</html>
