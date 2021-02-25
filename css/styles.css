@@ -513,6 +513,12 @@ input[type=text], input[type=email], select, textarea {
     text-align: center;
     margin-bottom: 50px;
 }
+.isDisabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    pointer-events: none;
+  }
 @keyframes spinnerOne {
     0% {
       transform: rotate(0deg)
